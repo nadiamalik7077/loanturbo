@@ -1,1 +1,11 @@
 /build
+/src/main/java/com/example/loanturbo/
+/src/test/java/com/example/loanturbo/
+/src/androidTest/java/com/example/loanturbo/
+/src/main/java/com/example/loanturbo/
+/src/test/java/com/example/loanturbo/
+/src/androidTest/java/com/example/loanturbo/
+git add -f app/src/androidTest/java/com/example/loanturbo
+git add -f app/src/main/java/com/example/loanturbo
+git add -f app/src/test/java/com/example/loanturbo
+/src/main/res/layout/app_bar_main.xml

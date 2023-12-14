@@ -24,7 +24,7 @@ public class HomeFragment extends Fragment {
     private FragmentHomeBinding binding;
     CountAnimationTextView counter;
     StepView stepView;
-    MaterialButton bt1;
+
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
 
@@ -33,7 +33,7 @@ public class HomeFragment extends Fragment {
         View root = binding.getRoot();
         counter= root.findViewById(R.id.user_counter);
         stepView= root.findViewById(R.id.step_view);
-        bt1.findViewById(R.id.bt1);
+
         counter.setAnimationDuration(5000).countAnimation(0, 567996599);
         stepView.go(2,true);
 
